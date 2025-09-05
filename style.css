@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho a {
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.conteudo img {
+    height: 400px;
+    width: 400px;
+}
+
+.conteudo2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.conteudo2 img {
+    height: 400px;
+    width: 400px;
+}
+
+.rodape {
+    text-align: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width:768px){
+    .cabecalho {
+        flex-direction: column;
+        height: 90px;
+        padding-top: 10px;
+        background-color: blue
+    }
+
+    .cabecalho a {
+        color: white;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .rodape {
+        background-color: blue
+    }
+}
+
+@media (max-width:460px){
+    .conteudo {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+
+    .cabecalho {
+        background-color: brown
+        
+    }
+
+    .conteudo img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .cabecalho a {
+        color: white;
+    }
+
+    .rodape {
+        background-color: brown
+    }
+}
+
+@media (max-width:375px){
+    .conteudo2 {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+
+    .cabecalho {
+        background-color: green
+    }
+
+    .conteudo2 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .cabecalho a {
+        color: white;
+    }
+
+    .rodape {
+        background-color: green
+    }
+}
