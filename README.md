@@ -1,1 +1,1 @@
-# programacao_para_internet_pagina_responsiva
+Página responsiva com duas section.
